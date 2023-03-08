@@ -1,0 +1,10 @@
+build
+__pycache__
+temp.json
+pypy3.8
+logs
+profiles/*
+!logs/README.md
+!profiles/README.md
+!profiles/vis*
+_venv

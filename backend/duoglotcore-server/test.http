@@ -1,0 +1,35 @@
+###
+POST http://127.0.0.1:8000/backend/duoglotcore/updateconstsreload
+content-type: application/json
+
+{
+  "consts": {
+    "DEBUG_VERBOSE": -11,
+    "PROFILING_TYPE": "cProfile",
+    "ENABLE_CYTHON_PROFILE": true
+  }
+}
+
+###
+POST http://127.0.0.1:8000/backend/duoglotcore/updateconstsreload
+content-type: application/json
+
+{
+  "consts": {
+    "DEBUG_VERBOSE": -11,
+    "PROFILING_TYPE": null,
+    "ENABLE_CYTHON_PROFILE": false
+  }
+}
+
+###
+POST http://127.0.0.1:8000/backend/duoglotcore/updateconstsreload
+content-type: application/json
+
+{
+  "consts": {
+    "DEBUG_VERBOSE": -11,
+    "PROFILING_TYPE": "cProfile",
+    "ENABLE_CYTHON_PROFILE": false
+  }
+}
